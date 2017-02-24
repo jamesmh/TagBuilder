@@ -3,7 +3,7 @@
 Give it some text and it will count and group all the "words" - or "tags". All words are converted to lowercase (for now...). Only words with more than 3 characters are counted.
 
 ##Install
-run ```npm install --save-dev tagbuilder```
+Run ```npm install --save-dev tagbuilder```
 
 ##Usage
 ```javascript
