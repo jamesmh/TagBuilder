@@ -33,7 +33,7 @@ const texts = [`hello i am
          `some weird text ...`]
 console.log(b.Generate(texts));
 
-///outputs
+///output
 
 /// [ { name: 'hello', amount: 2 },
 ///  { name: 'some', amount: 2 },
