@@ -10,7 +10,7 @@ Run ```npm install --save-dev tagbuilder```
 const TagBuilder = require('tagbuilder').TagBuilder;
 const builder = new TagBuilder();
 
-builder.Generate(""i am some text here we go text");
+builder.Generate("i am some text here we go text");
 
 //[ { name: 'some', amount: 1 },
 //  { name: 'text', amount: 2 },
