@@ -5,6 +5,8 @@ Give it some text and it will count and group all the "words" - or "tags". All w
 ##Install
 Run ```npm install --save-dev tagbuilder```
 
+If you clone this repo, you can ```npm install``` then run the jest unit tests by ```npm test```.
+
 ##Usage
 ```javascript
 const TagBuilder = require('tagbuilder').TagBuilder;
