@@ -2,12 +2,12 @@
 
 Give it some text and it will count and group all the "words" - or "tags". All words are converted to lowercase (for now...). Only words with more than 3 characters are counted.
 
-##Install
+## Install
 Run ```npm install --save-dev tagbuilder```
 
 If you clone this repo, you can ```npm install``` then run the jest unit tests by ```npm test```.
 
-##Usage
+## Usage
 ```javascript
 const TagBuilder = require('tagbuilder').TagBuilder;
 const builder = new TagBuilder();
