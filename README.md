@@ -1,6 +1,12 @@
 # TagBuilder
 
-Give it some text and it will count and group all the "words" - or "tags". All words are converted to lowercase (for now...). Only words with more than 3 characters are counted.
+Blogs, for example, may want to keep track of the most common words within a blog post. This small utility can help to solve this problem.
+
+Give the utility some text and it will give you the number of occurances for each word in the text.
+
+Only words with more than 3 characters are counted.
+
+Also, all words are converted to lowercase (case-insensitive).
 
 ## Install
 Run ```npm install --save-dev tagbuilder```
@@ -8,6 +14,9 @@ Run ```npm install --save-dev tagbuilder```
 If you clone this repo, you can ```npm install``` then run the jest unit tests by ```npm test```.
 
 ## Usage
+
+### Single String
+
 ```javascript
 const TagBuilder = require('tagbuilder').TagBuilder;
 const builder = new TagBuilder();
@@ -22,7 +31,12 @@ builder.Generate("i am some text here we go text");
 //  { name: 'text', amount: 2 },
 //  { name: 'here', amount: 1 } ]
 ```
-You may pass into the ```Generate()``` function either a string or an array of strings. All the arrays will be combined / flattened together to create your results! New lines are accounted for etc. See next example for array usage.
+
+### Array Of Strings
+
+Alternatively, you may supply an array of string to the ```Generate()``` method.
+
+The results will be calculated/aggregated for all the strings supplied (as one unit).
 
 ```javascript
 
