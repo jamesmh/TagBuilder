@@ -34,7 +34,7 @@ builder.Generate("i am some text here we go text");
 
 ### Array Of Strings
 
-Alternatively, you may supply an array of string to the ```Generate()``` method.
+Alternatively, you may supply an array of strings to the ```Generate()``` method.
 
 The results will be calculated/aggregated for all the strings supplied (as one unit).
 
